@@ -1,0 +1,41 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+body{
+    background-color: seagreen;
+    
+}
+.accordion-container{
+    margin: 100px auto;
+    width: 400px;
+    background-color: whitesmoke;
+    color: black;
+  
+}
+
+.accordion-header{
+    background-color:black;
+    padding: 15px;
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+    cursor: pointer;
+    border-bottom: 1px solid white;
+    
+}
+
+.accordion-content{
+    text-align: justify;
+    overflow: hidden;
+}
+.accordion-body{
+    padding: 10px;
+}
+
+.collapse{
+    height: 0px;
+    
+}
+
